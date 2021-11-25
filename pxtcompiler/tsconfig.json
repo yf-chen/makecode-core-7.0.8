@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "declaration": true,
+        "out": "../built/pxtcompiler.js",
+        "newLine": "LF",
+        "sourceMap": false,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "scripthost",
+            "es2017",
+            "ES2018.Promise"
+        ],
+        "types": [
+            "fuse"
+        ],
+        "incremental": true
+    },
+    "exclude": [
+        "ext-typescript/lib/lib.d.ts"
+    ]
+}
